@@ -1,0 +1,28 @@
+_partial_: true
+_target_: generative_model.model.seqflow.lstm_flow.AFPrior
+
+defaults:
+  - default
+  - _self_
+
+name: seqflow
+hidden_size: 500
+zsize: 40
+dropout_p: 0.2
+max_T: 288
+dropout_locations: ['prior_rnn']
+prior_type: 'AF'
+num_flow_layers: 5
+rnn_layers: 2
+
+transform_function: "nlsq" 
+hiddenflow_params: 
+  nohiddenflow: False
+  hiddenflow_layers: 2
+  hiddenflow_units: 100
+  hiddenflow_flow_layers: 10
+  hiddenflow_scf_layers: True
+
+noise: 0.1
+sim_coef: 1
+cliping: True

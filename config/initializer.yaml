@@ -1,0 +1,14 @@
+_target_: BO.initializer.Initializer
+
+defaults:
+  - /global
+  - objective: guacamol
+  - generative_model: glow
+  - surrogate_model: deepGP
+  - _self_
+  
+use_pretrain: true
+save_pretrain: false
+pretrain_name: 1.27M_3
+k: 100
+tr_length: 0.8

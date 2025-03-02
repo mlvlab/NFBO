@@ -1,0 +1,36 @@
+_target_: BO.optimizer.Optimizer
+
+defaults:
+  - /global
+  - /initializer
+  - _self_
+  
+
+max_n_oracle_calls: 100000
+e2e_freq: 10
+acq_bsz: 1000
+acq_topk: 1
+init_surr_epochs: 100
+surr_epochs: 1
+init_vae_epochs: 0
+surr_lr: 0.001
+vae_epochs: 1
+vae_lr: 0.001
+bsz: 10
+k: 1000
+gpu: 0
+newd: 10
+dacs_temp: 0
+
+temperature: 0
+
+train_oracle: 200
+
+prob_perturb: 0.1
+train_bsz: 32
+
+acq_func: ts
+
+fail_tol: 100
+min_prob: 0
+max_prob: 1

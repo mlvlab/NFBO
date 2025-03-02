@@ -1,0 +1,11 @@
+defaults:
+  - default
+  - _self_
+
+task_id: ${objective.task_id}
+data_type: guacamol
+pretrain_data_name: null
+oracle_data_name: guacamol_train_data_first_20k.csv
+oracle_data_load_num: 10000
+graph_data_name: null
+scaler_type: null

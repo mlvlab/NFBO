@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+ 
+verbose: 10
+root_dir: ./
+wandb: true
+wandb_project_name: null
+wandb_entity: null
+wandb_name: null
+log_dir: ${root_dir}/Program_BO_logs
+test: False
+debug: False

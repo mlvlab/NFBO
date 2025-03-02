@@ -1,0 +1,10 @@
+# @package _global_
+defaults:
+  - /data: guacamol
+  - _self_
+
+objective:
+  _target_: objective.guacamol.molecule_objective.MoleculeObjective
+  name: guacamol
+  task_id: pdop
+  data_type: ${data.data_type}

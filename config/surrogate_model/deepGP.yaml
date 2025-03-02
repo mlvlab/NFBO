@@ -1,0 +1,7 @@
+_partial_: true
+_target_: surrogate_model.model.deepGP.ppgpr.GPModelDKL
+
+defaults:
+  - _self_
+  
+name: GP

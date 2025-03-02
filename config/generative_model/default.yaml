@@ -1,0 +1,17 @@
+_target_: data.data_load.DataStorage
+
+defaults:
+  - /global
+  - _self_
+
+batch_size: 32
+train_ratio: 0.8
+val_ratio: 0.1
+scaler_type: minmax
+obj_func: all
+data_type: null
+oracle_data_name: null
+oracle_data_load_num: null
+graph_data_name: null
+
+canonical: True

@@ -1,0 +1,32 @@
+_partial_: true
+_target_: generative_model.model.textflow.discreteflow_model.DFModel
+
+defaults:
+  - default
+  - _self_
+
+name: textflow
+hidden_size: 500
+zsize: 40
+dropout_p: 0.2
+max_T: 288
+gen_bilstm_layers: 2
+q_rnn_layers: 2
+tie_weights: true
+dropout_locations: ['prior_rnn']
+prior_type: 'AF'
+
+prior_kwargs:
+  p_num_flow_layers: 5
+  p_rnn_layers: 2
+  transform_function: "nlsq"
+  p_rnn_units: ${generative_model.hidden_size}
+
+  nohiddenflow: False
+  hiddenflow_layers: 2
+  hiddenflow_units: 100
+  hiddenflow_flow_layers: 10
+  hiddenflow_scf_layers: False
+
+
+noise: 0.1

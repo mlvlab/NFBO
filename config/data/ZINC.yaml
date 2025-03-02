@@ -1,0 +1,11 @@
+defaults:
+  - default
+  - _self_
+
+task_id: ${objective.task_id}
+data_type: ZINC
+pretrain_data_name: null
+oracle_data_name: ZINC_20K.csv
+oracle_data_load_num: 10000
+graph_data_name: null
+scaler_type: null
