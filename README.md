@@ -1,7 +1,6 @@
 
 # Latent Bayesian Optimization via Autoregressive Normalizing Flows
-
-This provides detailed instructions on how to run the Guacamol benchmark with various oracle budgets using our NFBO.
+Official PyTorch implementation of the "Latent Bayesian Optimization via Autoregressive Normalizing Flows". (ICLR 2025)
 
 ## Installation
 - Python 3.7
@@ -58,3 +57,16 @@ The following table lists the task id and their corresponding task names:
 |  rano   | Ranolazine MPO     |
 |  zale   | Zaleplon MPO       |
 |  valt   | Valsartan Smarts   |
+
+## Contact
+If you have any questions, please create an issue on this repository or contact at llsshh319@korea.ac.kr.
+
+## Citation
+```
+@inproceedings{lee2024latent,
+  title={Latent Bayesian Optimization via Autoregressive Normalizing Flows},
+  author={Lee, Seunghun and Park, Jinyoung and Chu, Jaewon and Yoon, Minseo and Kim, Hyunwoo J},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2024}
+}
+```
