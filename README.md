@@ -63,10 +63,10 @@ If you have any questions, please create an issue on this repository or contact 
 
 ## Citation
 ```
-@inproceedings{lee2024latent,
+@inproceedings{lee2025latent,
   title={Latent Bayesian Optimization via Autoregressive Normalizing Flows},
   author={Lee, Seunghun and Park, Jinyoung and Chu, Jaewon and Yoon, Minseo and Kim, Hyunwoo J},
   booktitle={The Thirteenth International Conference on Learning Representations},
-  year={2024}
+  year={2025}
 }
 ```
