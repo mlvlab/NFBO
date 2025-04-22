@@ -1,6 +1,6 @@
 
 # Latent Bayesian Optimization via Autoregressive Normalizing Flows
-Official PyTorch implementation of the "Latent Bayesian Optimization via Autoregressive Normalizing Flows". (ICLR 2025)
+Official PyTorch implementation of the "[Latent Bayesian Optimization via Autoregressive Normalizing Flows](https://arxiv.org/pdf/2504.14889)". (ICLR 2025)
 
 ## Installation
 - Python 3.7
